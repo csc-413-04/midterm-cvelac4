@@ -56,14 +56,48 @@ public class Main {
         public String getObject()
         {
             private String object = question3;
-            <button onclick = "counter++">num</button>
+            for(i = 0; i < object; i++)
+            {
+                object++;
+            }
             let jsonObject = JSON.parse(object);
             return object;
         }
-           
         
+        function getFrequency(string, cutoff)
+        {
+            var cleanString = string.replace(/[\.,-\/#!$%\^&\*;:{}=\-_`~()]/g,""), words = readString.split(' '), frequencies = {}, word, frequency, i;
+            var mf = 1, m = 0, iteam;
+            for( i = 0, i < words.length; i++)
+            {
+                word = words[i];
+                frequencies[word] = frequencies[word] || 0; 
+                frequencies[word]++;
+                
+                for(var j = i; j < words.length; j++)
+                {
+                    if(words[i] == words[j])
+                    {
+                        if (mf < m)
+                        {
+                            mf = m;
+                            item = words[i];
+                        }
+                        
+                    }
+                }
+                m =0;
+            }
+            
+            words = OBJECT.keys( frequencies );
+            
+            return [words, iteam];
+            
+            
+            }
         
+        document.write(getFrequency(question4and5);
         
-        
-    }
+         }
+   }
 }
