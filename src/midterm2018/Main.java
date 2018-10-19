@@ -1,4 +1,6 @@
 package midterm2018;
+import java.util.List;
+import com.google.Gson;
 
 public class Main {
 
@@ -40,5 +42,28 @@ public class Main {
 
         // Question 5
         // return 2nd most common word
+        function myFunction() 
+        {
+            return localhost:1298;
+        }
+         var x = addFunction(3, 4);   
+
+        function addFunction(a, b) 
+        {
+            return a + b;                
+        }
+        
+        public String getObject()
+        {
+            private String object = question3;
+            <button onclick = "counter++">num</button>
+            let jsonObject = JSON.parse(object);
+            return object;
+        }
+           
+        
+        
+        
+        
     }
 }
